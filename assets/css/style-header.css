@@ -27,8 +27,13 @@ nav {
 nav a {
     text-decoration: none;
     color: hsl(240, 100%, 5%);
+    cursor: pointer;
 }
 
 nav a:hover {
     color: hsl(5, 85%, 63%);
+}
+
+nav a:visited {
+    color: hsl(240, 100%, 5%);
 }
