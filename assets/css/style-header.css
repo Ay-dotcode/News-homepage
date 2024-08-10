@@ -8,7 +8,8 @@ body {
     display: flex;
     flex-direction: column;
     font-family: Inter, sans-serif;
-    /* height: 100vh; */
+    background-color: red;
+    justify-content: center;
 }
 
 header {
@@ -16,6 +17,8 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 3rem 1rem;
+    width: 900px;
+    background-color: white;
 }
 
 nav {

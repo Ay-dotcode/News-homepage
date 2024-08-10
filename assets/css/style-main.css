@@ -1,10 +1,12 @@
 main {
+    gap: 1rem;
+    width: 900px;
     display: grid;
     padding: 0 1rem;
     overflow: hidden;
-    gap: 1rem;
-    grid-template-columns: repeat(3, 1fr);
+    background-color: white;
     grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     grid-template-areas:
         'web3 web3 aside'
         'heading description aside'
@@ -27,6 +29,12 @@ h1 {
 
 div {
     grid-area: description;
+    background-color: red;
+}
+
+div p {
+    color: hsl(236, 13%, 42%);
+    /* font-size: ; */
 }
 
 aside {
