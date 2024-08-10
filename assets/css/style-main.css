@@ -1,7 +1,9 @@
 main {
-    display: grid;
+    /* display: grid; */
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 1fr);
 }
 
-#mainImg {}
+#mainImg {
+    /* content: url('/assets/images/image-web-3-desktop.jpg'); */
+}
