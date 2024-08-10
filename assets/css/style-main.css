@@ -1,9 +1,44 @@
 main {
     display: grid;
+    padding: 0 1rem;
+    overflow: hidden;
+    gap: 1rem;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 1fr);
+    grid-template-areas:
+        'web3 web3 aside'
+        'heading description aside'
+        'one two three';
 }
 
 #mainImg {
-    /* content: url('/assets/images/image-web-3-desktop.jpg'); */
+    grid-area: web3;
+    background-color: black;
+    color: white;
+    content: url("/assets/images/image-web-3-desktop.jpg");
+    width: 100%;
+}
+
+aside {
+    grid-area: aside;
+}
+
+h1 {
+    grid-area: heading;
+}
+
+div {
+    grid-area: description;
+}
+
+#one {
+    grid-area: one;
+}
+
+#two {
+    grid-area: two;
+}
+
+#three {
+    grid-area: three;
 }
