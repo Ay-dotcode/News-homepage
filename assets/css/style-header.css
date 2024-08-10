@@ -7,9 +7,8 @@
 body {
     display: flex;
     flex-direction: column;
+    align-items: center;
     font-family: Inter, sans-serif;
-    background-color: red;
-    justify-content: center;
 }
 
 header {
