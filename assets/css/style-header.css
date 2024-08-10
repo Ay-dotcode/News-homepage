@@ -11,18 +11,24 @@ body {
     height: 100vh;
 }
 
-nav {
-    display: flex;
-    width: 20rem;
-    justify-content: space-evenly;
-}
-
-nav a {
-    text-decoration: none;
-}
-
 header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 1rem;
+}
+
+nav {
+    display: flex;
+    width: 25rem;
+    justify-content: space-between;
+}
+
+nav a {
+    text-decoration: none;
+    color: hsl(240, 100%, 5%);
+}
+
+nav a:hover {
+    color: hsl(5, 85%, 63%);
 }
