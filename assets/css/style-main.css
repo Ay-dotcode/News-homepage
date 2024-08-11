@@ -4,7 +4,7 @@ main {
     display: grid;
     padding: 0 1rem;
     overflow: hidden;
-    background-color: white;
+    background-color: hsl(36, 100%, 99%);
     grid-template-rows: repeat(3, 1fr);
     grid-template-columns: repeat(3, 1fr);
     grid-template-areas:
@@ -16,7 +16,7 @@ main {
 #mainImg {
     grid-area: web3;
     background-color: black;
-    color: white;
+    color: hsl(36, 100%, 99%);
     content: url("/assets/images/image-web-3-desktop.jpg");
     width: 100%;
 }
