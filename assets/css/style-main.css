@@ -117,3 +117,7 @@ aside p {
 .category h3 {
     font-size: 1rem;
 }
+
+.category h3:hover {
+    color: hsl(5, 85%, 63%);
+}
