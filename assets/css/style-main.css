@@ -18,7 +18,7 @@ main {
     background-color: black;
     color: hsl(36, 100%, 99%);
     content: url("/assets/images/image-web-3-desktop.jpg");
-    width: 100%;
+    width: 90%;
 }
 
 h1 {
