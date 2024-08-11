@@ -29,12 +29,22 @@ h1 {
 
 div {
     grid-area: description;
-    background-color: red;
 }
 
 div p {
     color: hsl(236, 13%, 42%);
-    /* font-size: ; */
+    font-size: .75rem;
+    margin-bottom: 1rem;
+}
+
+div button {
+    padding: 1rem;
+    cursor: pointer;
+    letter-spacing: .3rem;
+    margin: 1rem 0;
+    text-transform: uppercase;
+    color: hsl(36, 100%, 99%);
+    background-color: hsl(240, 100%, 5%);
 }
 
 aside {
