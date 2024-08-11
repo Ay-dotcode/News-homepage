@@ -32,7 +32,7 @@ nav a {
     cursor: pointer;
 }
 
-nav a:hover {
+nav a:hover, a:visited:hover {
     color: hsl(5, 85%, 63%);
 }
 
