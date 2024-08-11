@@ -60,10 +60,20 @@ aside h2 {
     color: hsl(35, 77%, 62%);
     margin: .5rem 0;
 }
-aside h3{
-    font-weight: 700;
-    margin: 1rem 0rem 0.5rem;
 
+aside h3 {
+    font-weight: 700;
+    margin: 1rem 0rem;
+}
+
+aside h3:hover {
+    color: hsl(35, 77%, 62%);
+}
+
+aside p {
+    font-size: .75rem;
+    color: hsl(236, 13%, 42%);
+    margin-bottom: 1.5rem;
 }
 
 #one {
