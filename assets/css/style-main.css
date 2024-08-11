@@ -61,18 +61,19 @@ aside {
     color: hsl(36, 100%, 99%);
     padding: 1rem;
     background-color: hsl(240, 100%, 5%);
+    height: fit-content;
 }
 
 aside h2 {
     font-size: 2rem;
     font-weight: 700;
     color: hsl(35, 77%, 62%);
-    margin: .5rem 0;
+    margin: 1rem 0 1rem;
 }
 
 aside h3 {
     font-weight: 700;
-    margin: 1rem 0rem;
+    margin: 2rem 0rem 1rem;
 }
 
 aside h3:hover {
@@ -99,4 +100,15 @@ aside p {
 
 .category {
     display: flex;
+}
+
+.category img {
+    width: 120px;
+    height: 120px;
+    margin-right: 1rem;
+}
+.category span{
+    font-size: 2rem;
+    font-weight: 800;
+    color: hsl(5, 85%, 63%);
 }
