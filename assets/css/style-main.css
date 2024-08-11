@@ -18,13 +18,14 @@ main {
     background-color: black;
     color: hsl(36, 100%, 99%);
     content: url("/assets/images/image-web-3-desktop.jpg");
-    width: 90%;
+    width: 100%;
 }
 
 h1 {
     grid-area: heading;
-    font-size: 2rem;
+    font-size: 3rem;
     font-weight: 800;
+    line-height: 3.5rem;
 }
 
 div {
@@ -33,16 +34,24 @@ div {
 
 div p {
     color: hsl(236, 13%, 42%);
-    font-size: .75rem;
+    font-size: .89rem;
     margin-bottom: 1rem;
+    line-height: 1.3rem;
 }
 
 div button {
     padding: 1rem;
     cursor: pointer;
+    border: none;
     letter-spacing: .3rem;
     margin: 1rem 0;
+    font-weight: 800;
+    color: hsl(240, 100%, 5%);
     text-transform: uppercase;
+    background-color: hsl(5, 85%, 63%);
+}
+
+div button:hover {
     color: hsl(36, 100%, 99%);
     background-color: hsl(240, 100%, 5%);
 }
