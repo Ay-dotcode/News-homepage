@@ -87,3 +87,7 @@ aside p {
 #three {
     grid-area: three;
 }
+
+.category {
+    display: flex;
+}
