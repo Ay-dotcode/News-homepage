@@ -5,18 +5,16 @@
 
     header {
         width: 375px;
+        position: relative;
+        padding: 1rem 1rem 2rem;
     }
 
     header img {
-        width: 2rem;
+        width: 3rem;
     }
 
     #menu {
         display: block;
-    }
-
-    nav {
-        display: none;
     }
 
     main {
@@ -25,4 +23,31 @@
         padding-bottom: 4rem;
         flex-direction: column;
     }
+
+    #mainImg {
+        content: url("/assets/images/image-web-3-mobile.jpg");
+    }
+
+    #closeMenu {
+        width: 1.5rem;
+        display: block;
+        align-self: flex-end;
+        margin: 1rem 1rem 2.5rem;
+    }
+
+    nav {
+        display: none;
+        right: 0;
+        top: 0;
+        width: 250px;
+        /* display: flex; */
+        position: absolute;
+        flex-direction: column;
+        background-color: hsl(36, 100%, 99%);
+    }
+
+    nav a {
+        margin: 1rem;
+    }
+
 }
