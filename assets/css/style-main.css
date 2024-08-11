@@ -74,6 +74,7 @@ aside h2 {
 aside h3 {
     font-weight: 700;
     margin: 2rem 0rem 1rem;
+    cursor: pointer;
 }
 
 aside h3:hover {
