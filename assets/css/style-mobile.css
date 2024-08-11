@@ -1,9 +1,28 @@
-@media (max-width: 45em) {
+@media (max-width: 63em) {
+    body {
+        background-color: black;
+    }
+
     header {
         width: 375px;
     }
 
+    header img {
+        width: 2rem;
+    }
+
+    #menu {
+        display: block;
+    }
+
+    nav {
+        display: none;
+    }
+
     main {
         width: 375px;
+        display: flex;
+        padding-bottom: 4rem;
+        flex-direction: column;
     }
 }
